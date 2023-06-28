@@ -11,7 +11,7 @@ RUN task deps:tools && task deps:be && task compile:be && task compile:api:hooks
 
 FROM apiaryio/dredd:13.0.0 as dredd
 
-RUN apk add --no-cache bash go git
+RUN apk add --no-cache bash go git tzdata
 
 RUN go get github.com/snikch/goodman/cmd/goodman
 

@@ -57,6 +57,7 @@ services:
       - 3000:3000
     image: semaphoreui/semaphore:latest
     environment:
+      TZ: America/Denver
       SEMAPHORE_DB_DIALECT: bolt
       SEMAPHORE_ADMIN_PASSWORD: changeme
       SEMAPHORE_ADMIN_NAME: admin
