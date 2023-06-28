@@ -61,4 +61,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           file: ./deployment/docker/prod/buildx.Dockerfile
           push: true
-          tags: semaphoreui/semaphore:latest,semaphoreui/semaphore:${{ github.ref_name }}
+          tags: haiyun211/semaphore:latest,semaphoreui/semaphore:${{ github.ref_name }}
