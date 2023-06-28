@@ -1,6 +1,7 @@
 # Pull Requests
 
 When creating a pull-request you should:
+Small change to test deployment
 
 - __Open an issue first:__ Confirm that the change or feature will be accepted
 - __gofmt and vet the code:__ Use  `gofmt`, `golint`, `govet` and `goimports` to clean up your code.
